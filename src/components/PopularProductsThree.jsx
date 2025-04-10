@@ -91,7 +91,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -193,7 +193,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -295,7 +295,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -397,7 +397,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -499,7 +499,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -601,7 +601,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -703,7 +703,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>
@@ -805,7 +805,7 @@ const PopularProductsThree = () => {
                   <span className='text-xs fw-medium text-gray-500'>(12K)</span>
                 </div>
                 <span className='py-2 px-8 text-xs rounded-pill text-main-two-600 bg-main-two-50 mt-16'>
-                  Fulfilled by Marketpro
+                  Fulfilled by Laptop Shop
                 </span>
                 <div className='product-card__price mt-16 mb-30'>
                   <span className='text-gray-400 text-md fw-semibold text-decoration-line-through'>

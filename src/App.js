@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteScrollToTop from "./helper/RouteScrollToTop";
-import HomePageOne from "./pages/HomePageOne";
+// import HomePageOne from "./pages/HomePageOne";
 import HomePageTwo from "./pages/HomePageTwo";
-import HomePageThree from "./pages/HomePageThree";
+// import HomePageThree from "./pages/HomePageThree";
 import ShopPage from "./pages/ShopPage";
 import ProductDetailsPageOne from "./pages/ProductDetailsPageOne";
 import ProductDetailsPageTwo from "./pages/ProductDetailsPageTwo";
@@ -26,9 +26,9 @@ function App() {
       <PhosphorIconInit />
 
       <Routes>
-        <Route exact path="/" element={<HomePageOne />} />
+        <Route exact path="/" element={<HomePageTwo />} />
         <Route exact path="/index-two" element={<HomePageTwo />} />
-        <Route exact path="/index-three" element={<HomePageThree />} />
+        <Route exact path="/index-three" element={<HomePageTwo />} />
         <Route exact path="/shop" element={<ShopPage />} />
         <Route
           exact

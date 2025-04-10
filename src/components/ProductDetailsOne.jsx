@@ -259,7 +259,7 @@ const ProductDetailsOne = () => {
                                         <span className="w-44 h-44 bg-white rounded-circle flex-center text-2xl">
                                             <i className="ph ph-storefront" />
                                         </span>
-                                        <span className="text-white">by Marketpro</span>
+                                        <span className="text-white">by Laptop Shop</span>
                                     </div>
                                     <Link
                                         to="/shop"

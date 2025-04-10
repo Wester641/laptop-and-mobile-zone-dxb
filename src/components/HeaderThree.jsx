@@ -141,13 +141,13 @@ const HeaderThree = () => {
                       to='/'
                       className='common-dropdown__link nav-submenu__link hover-bg-neutral-100'
                     >
-                      Home Grocery
+                      Electronics Page
                     </Link>
                   </li>
                   <li className='common-dropdown__item nav-submenu__item'>
                     <Link
                       onClick={() => setActiveIndex(null)}
-                      to='/index-two'
+                      to='/'
                       className='common-dropdown__link nav-submenu__link hover-bg-neutral-100'
                     >
                       {" "}
@@ -157,10 +157,10 @@ const HeaderThree = () => {
                   <li className='common-dropdown__item nav-submenu__item'>
                     <Link
                       onClick={() => setActiveIndex(null)}
-                      to='/index-three'
+                      to='/'
                       className='common-dropdown__link nav-submenu__link hover-bg-neutral-100'
                     >
-                      Home Fashion
+                      Support 
                     </Link>
                   </li>
                 </ul>
@@ -1699,12 +1699,12 @@ const HeaderThree = () => {
                           }
                         >
                           {" "}
-                          Home Grocery
+                          Electronics Page
                         </NavLink>
                       </li>
                       <li className='common-dropdown__item nav-submenu__item'>
                         <NavLink
-                          to='/index-two'
+                          to='/'
                           className={(navData) =>
                             navData.isActive
                               ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
@@ -1717,7 +1717,7 @@ const HeaderThree = () => {
                       </li>
                       <li className='common-dropdown__item nav-submenu__item '>
                         <NavLink
-                          to='/index-three'
+                          to='/'
                           className={(navData) =>
                             navData.isActive
                               ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
@@ -1725,7 +1725,7 @@ const HeaderThree = () => {
                           }
                         >
                           {" "}
-                          Home Fashion
+                          Support 
                         </NavLink>
                       </li>
                     </ul>

@@ -14,7 +14,7 @@ const FooterTwo = () => {
                             </Link>
                         </div>
                         <p className="mb-24">
-                            Marketpro become the largest computer parts, gaming pc parts, and
+                            Laptop Shop become the largest computer parts, gaming pc parts, and
                             other IT related products.
                         </p>
                         <div className="flex-align gap-16 mb-16">
@@ -33,10 +33,10 @@ const FooterTwo = () => {
                                 <i className="ph-fill ph-envelope" />
                             </span>
                             <Link
-                                to="/mailto:support24@marketpro.com"
+                                to="/mailto:support24@laptopshop.com"
                                 className="text-md text-gray-900 hover-text-main-600"
                             >
-                                support24@marketpro.com
+                                support24@laptopshop.com
                             </Link>
                         </div>
                         <div className="flex-align gap-16 mb-16">
@@ -233,7 +233,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="footer-item">
                         <h6 className="">Shop on The Go</h6>
-                        <p className="mb-16">Marketpro App is available. Get it now</p>
+                        <p className="mb-16">Laptop Shop App is available. Get it now</p>
                         <div className="flex-align gap-8 my-32">
                             <Link to="/https://www.apple.com/store" className="">
                                 <img src="assets/images/thumbs/store-img1.png" alt="" />
