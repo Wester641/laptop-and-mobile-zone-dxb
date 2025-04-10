@@ -33,7 +33,7 @@ function App() {
         <Route
           exact
           path="/product-details"
-          element={<ProductDetailsPageOne />}
+          element={<ProductDetailsPageTwo />}
         />
         <Route
           exact
@@ -48,8 +48,8 @@ function App() {
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
-        <Route exact path="/vendor" element={<VendorPage />} />
-        <Route exact path="/vendor-details" element={<VendorDetailsPage />} />
+        <Route exact path="/vendor" element={<VendorTwoPage />} />
+        <Route exact path="/vendor-details" element={<VendorTwoPage />} />
         <Route exact path="/vendor-two" element={<VendorTwoPage />} />
         <Route
           exact
