@@ -1206,6 +1206,11 @@ input[type="number"] {
   padding-inline-start: 0;
 }
 
+.max-width {
+  max-width: 100px;
+  height: 100px;
+}
+
 .table.style-three tbody tr td:last-child {
   padding-inline-end: 0;
 }
@@ -4753,9 +4758,9 @@ input:focus-visible {
   max-height: 540px !important;
 }
 
-.max-w-unset {
+/* . {
   max-width: unset !important;
-}
+} */
 
 .max-w-120 {
   max-width: 120px;

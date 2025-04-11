@@ -124,8 +124,7 @@ const TopSellingTwo = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img1.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <span className="text-main-600 bg-main-50 text-sm fw-medium py-4 px-8">
@@ -193,8 +192,7 @@ const TopSellingTwo = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img2.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <span className="text-main-600 bg-main-50 text-sm fw-medium py-4 px-8">
@@ -262,8 +260,7 @@ const TopSellingTwo = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img3.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <span className="text-main-600 bg-main-50 text-sm fw-medium py-4 px-8">
@@ -331,8 +328,7 @@ const TopSellingTwo = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img4.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <span className="text-main-600 bg-main-50 text-sm fw-medium py-4 px-8">
@@ -400,8 +396,7 @@ const TopSellingTwo = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img2.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <span className="text-main-600 bg-main-50 text-sm fw-medium py-4 px-8">

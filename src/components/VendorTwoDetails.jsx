@@ -610,7 +610,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img1.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -713,7 +713,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img2.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -816,7 +816,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img3.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -919,7 +919,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img4.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1022,7 +1022,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img1.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1125,7 +1125,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img2.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1228,7 +1228,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img3.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1331,7 +1331,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img4.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1434,7 +1434,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img1.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1537,7 +1537,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img2.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1640,7 +1640,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img3.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>
@@ -1743,7 +1743,7 @@ const VendorTwoDetails = () => {
                     <img
                       src='assets/images/thumbs/trending-three-img4.png'
                       alt=''
-                      className='w-auto max-w-unset'
+                      className='w-auto '
                     />
                   </Link>
                   <div className='position-absolute inset-block-start-0 inset-inline-start-0 mt-16 ms-16 z-1 d-flex flex-column gap-8'>

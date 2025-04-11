@@ -150,8 +150,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -219,8 +218,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -288,8 +286,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -357,8 +354,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -426,8 +422,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -495,8 +490,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -574,8 +568,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -643,8 +636,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -712,8 +704,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -781,8 +772,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -850,8 +840,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -919,8 +908,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -998,8 +986,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1067,8 +1054,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1136,8 +1122,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1205,8 +1190,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1274,8 +1258,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1343,8 +1326,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1422,8 +1404,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1491,8 +1472,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1560,8 +1540,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1629,8 +1608,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1698,8 +1676,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1767,8 +1744,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1846,8 +1822,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1915,8 +1890,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -1984,8 +1958,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2053,8 +2026,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2122,8 +2094,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2191,8 +2162,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2270,8 +2240,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2339,8 +2308,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2408,8 +2376,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2477,8 +2444,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2546,8 +2512,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2615,8 +2580,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2694,8 +2658,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img1.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2763,8 +2726,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img2.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2832,8 +2794,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img3.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2901,8 +2862,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img4.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -2970,8 +2930,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img5.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">
@@ -3039,8 +2998,7 @@ const TrendingOne = () => {
                                             <img
                                                 src="assets/images/thumbs/product-two-img6.png"
                                                 alt=""
-                                                className="w-auto max-w-unset"
-                                            />
+                                                className="w-auto  max-width"                                            />
                                         </Link>
                                         <div className="product-card__content mt-16">
                                             <span className="text-success-600 bg-success-50 text-sm fw-medium py-4 px-8">

@@ -23,10 +23,7 @@ import ColorInit from "../helper/ColorInit";
 import ScrollToTop from "react-scroll-to-top";
 
 const HomePageTwo = () => {
-
-
   return (
-
     <>
       {/* ColorInit */}
       <ColorInit color={true} />
@@ -68,10 +65,10 @@ const HomePageTwo = () => {
       <TopSellingTwo />
 
       {/* PopularProductsOne */}
-      <PopularProductsOne />
+      {/* <PopularProductsOne /> */}
 
       {/* TopVendorsTwo */}
-      <TopVendorsTwo />
+      {/* <TopVendorsTwo /> */}
 
       {/* DaySaleOne */}
       <DaySaleOne />
@@ -93,8 +90,6 @@ const HomePageTwo = () => {
 
       {/* BottomFooter */}
       <BottomFooter />
-
-
     </>
   );
 };

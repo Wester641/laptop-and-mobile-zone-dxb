@@ -86,8 +86,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img2.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">
@@ -150,8 +149,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img3.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">
@@ -218,8 +216,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img4.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">
@@ -282,8 +279,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img4.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">
@@ -350,8 +346,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img2.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">
@@ -414,8 +409,7 @@ const FeaturedOne = () => {
                                                         <img
                                                             src="assets/images/thumbs/product-two-img3.png"
                                                             alt=""
-                                                            className="w-auto max-w-unset"
-                                                        />
+                                                            className="w-auto  max-width"                                                        />
                                                     </Link>
                                                     <div className="product-card__content my-20 flex-grow-1">
                                                         <h6 className="title text-lg fw-semibold mb-12">

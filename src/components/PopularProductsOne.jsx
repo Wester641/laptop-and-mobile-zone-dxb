@@ -79,8 +79,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img1.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -124,8 +123,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img2.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -169,8 +167,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img3.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -214,8 +211,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img4.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -259,8 +255,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img5.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -304,8 +299,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img6.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -349,8 +343,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img7.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">
@@ -394,8 +387,7 @@ const PopularProductsOne = () => {
                                     <img
                                         src="assets/images/thumbs/popular-img8.png"
                                         alt=""
-                                        className="w-auto max-w-unset"
-                                    />
+                                        className="w-auto  max-width"                                    />
                                 </Link>
                                 <div className="product-card__content flex-grow-1">
                                     <h6 className="title text-lg fw-semibold mb-12">

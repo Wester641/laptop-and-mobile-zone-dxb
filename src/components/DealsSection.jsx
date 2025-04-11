@@ -36,7 +36,7 @@ const DealsSection = () => {
                           <img
                             src='assets/images/thumbs/trending-three-img3.png'
                             alt=''
-                            className='w-auto max-w-unset'
+                            className='w-auto '
                           />
                         </Link>
                         <button
@@ -91,7 +91,7 @@ const DealsSection = () => {
                           <img
                             src='assets/images/thumbs/trending-three-img4.png'
                             alt=''
-                            className='w-auto max-w-unset'
+                            className='w-auto '
                           />
                         </Link>
                         <button
@@ -146,7 +146,7 @@ const DealsSection = () => {
                           <img
                             src='assets/images/thumbs/trending-three-img2.png'
                             alt=''
-                            className='w-auto max-w-unset'
+                            className='w-auto '
                           />
                         </Link>
                         <button

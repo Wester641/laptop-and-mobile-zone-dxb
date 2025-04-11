@@ -121,8 +121,7 @@ const TopSellingOne = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img7.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <div className="flex-align gap-6">
@@ -200,8 +199,7 @@ const TopSellingOne = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img8.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <div className="flex-align gap-6">
@@ -279,8 +277,7 @@ const TopSellingOne = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img9.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <div className="flex-align gap-6">
@@ -358,8 +355,7 @@ const TopSellingOne = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img10.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <div className="flex-align gap-6">
@@ -437,8 +433,7 @@ const TopSellingOne = () => {
                                                 <img
                                                     src="assets/images/thumbs/product-two-img8.png"
                                                     alt=""
-                                                    className="w-auto max-w-unset"
-                                                />
+                                                    className="w-auto  max-width"                                                />
                                             </Link>
                                             <div className="product-card__content mt-16">
                                                 <div className="flex-align gap-6">
