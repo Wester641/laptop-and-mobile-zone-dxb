@@ -9211,7 +9211,7 @@ input:focus-visible {
   }
 
   .product-card__thumb img {
-    max-width: 120px;
+    max-width: 160px !important;
   }
 
   .product-card__content .product-card__price span {

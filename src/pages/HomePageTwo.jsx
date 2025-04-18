@@ -46,9 +46,6 @@ const HomePageTwo = () => {
       {/* DealsOne */}
       <DealsOne />
 
-      {/* TopSellingOne */}
-      <TopSellingOne />
-
       {/* TrendingOne */}
       <TrendingOne />
 
