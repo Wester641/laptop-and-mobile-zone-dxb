@@ -13,8 +13,8 @@ const dealLaptops = [
     title: "HP Chromebook 14-inch Laptop",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 14/55",
-    old_price: "$149.99",
-    new_price: "$119.99",
+    old_price: "AED149.99",
+    new_price: "AED119.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -28,8 +28,8 @@ const dealLaptops = [
     title: "Macbook Air 13-inch",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 13/55",
-    old_price: "$1099.99",
-    new_price: "$899.99",
+    old_price: "AED1099.99",
+    new_price: "AED899.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -43,8 +43,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -58,8 +58,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -73,8 +73,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -88,8 +88,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -103,8 +103,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -118,8 +118,8 @@ const dealLaptops = [
     title: "Lenovo ThinkPad T16 Gen 3",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 10/40",
-    old_price: "$1999.99",
-    new_price: "$1199.99",
+    old_price: "AED1999.99",
+    new_price: "AED1199.99",
     add_button: "Add To Cart",
     add_link: "/cart",
     detail_link: "/product-details-two",
@@ -133,7 +133,7 @@ const SampleNextArrow = memo(function SampleNextArrow(props) {
     <button
       type="button"
       onClick={onClick}
-      className={` ${className} slick-next slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
+      className={` AED{className} slick-next slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
     >
       <i className="ph ph-caret-right" />
     </button>
@@ -146,7 +146,7 @@ const SamplePrevArrow = memo(function SamplePrevArrow(props) {
     <button
       type="button"
       onClick={onClick}
-      className={`${className} slick-prev slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
+      className={`AED{className} slick-prev slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
     >
       <i className="ph ph-caret-left" />
     </button>
