@@ -1,0 +1,18 @@
+.update-button{
+    color: #FA6400;
+    border: 1px solid #FA6400;
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.update-button :hover{
+    opacity: 0.5;
+}
+
+.get-fields{
+    border: 1px solid #FA6400;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}

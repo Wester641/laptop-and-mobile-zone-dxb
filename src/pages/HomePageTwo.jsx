@@ -4,14 +4,14 @@ import HeaderTwo from "../components/HeaderTwo";
 import BannerTwo from "../components/BannerTwo";
 import PromotionalTwo from "../components/PromotionalTwo";
 import DealsOne from "../components/DealsOne";
-import TopSellingOne from "../components/TopSellingOne";
+// import TopSellingOne from "../components/TopSellingOne";
 import TrendingOne from "../components/TrendingOne";
 import DiscountOne from "../components/DiscountOne";
 import FeaturedOne from "../components/FeaturedOne";
 import BigDealOne from "../components/BigDealOne";
 import TopSellingTwo from "../components/TopSellingTwo";
-import PopularProductsOne from "../components/PopularProductsOne";
-import TopVendorsTwo from "../components/TopVendorsTwo";
+// import PopularProductsOne from "../components/PopularProductsOne";
+// import TopVendorsTwo from "../components/TopVendorsTwo";
 import DaySaleOne from "../components/DaySaleOne";
 import RecentlyViewedOne from "../components/RecentlyViewedOne";
 import BrandTwo from "../components/BrandTwo";
@@ -21,6 +21,8 @@ import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ColorInit from "../helper/ColorInit";
 import ScrollToTop from "react-scroll-to-top";
+import UpdateFields from "../components/firebase/UpdateFields";
+import GetFields from "../components/firebase/GetFields";
 
 const HomePageTwo = () => {
   return (
@@ -81,6 +83,10 @@ const HomePageTwo = () => {
 
       {/* NewsletterTwo */}
       <NewsletterTwo />
+      
+      <UpdateFields/>
+
+<GetFields/>
 
       {/* FooterTwo */}
       <FooterTwo />

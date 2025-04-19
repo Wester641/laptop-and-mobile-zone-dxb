@@ -1,6 +1,6 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
-import HeaderOne from "../components/HeaderOne";
+// import HeaderOne from "../components/HeaderOne";
 import ProductDetailsOne from "../components/ProductDetailsOne";
 import NewArrivalTwo from "../components/NewArrivalTwo";
 import ShippingOne from "../components/ShippingOne";
@@ -28,7 +28,7 @@ const ProductDetailsPageOne = () => {
       <ScrollToTop smooth color="#299E60" />
 
       {/* HeaderOne */}
-      <HeaderOne />
+      {/* <HeaderOne /> */}
 
       {/* Breadcrumb */}
       <BreadcrumbTwo title={"Product Details"} />

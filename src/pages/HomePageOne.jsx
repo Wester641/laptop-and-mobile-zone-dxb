@@ -1,6 +1,6 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
-import HeaderOne from "../components/HeaderOne";
+// import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
 import FeatureOne from "../components/FeatureOne";
 import PromotionalOne from "../components/PromotionalOne";
@@ -37,7 +37,7 @@ const HomePageOne = () => {
       <ColorInit color={false} />
 
       {/* HeaderOne */}
-      <HeaderOne />
+      {/* <HeaderOne /> */}
 
       {/* BannerOne */}
       <BannerOne />

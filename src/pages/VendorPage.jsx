@@ -2,7 +2,7 @@ import React from "react";
 import ColorInit from "../helper/ColorInit";
 import ScrollToTop from "react-scroll-to-top";
 import Preloader from "../helper/Preloader";
-import HeaderOne from "../components/HeaderOne";
+// import HeaderOne from "../components/HeaderOne";
 import BreadcrumbThree from "../components/BreadcrumbThree";
 import VendorsList from "../components/VendorsList";
 import ShippingOne from "../components/ShippingOne";
@@ -23,7 +23,7 @@ const VendorPage = () => {
       <ScrollToTop smooth color='#299E60' />
 
       {/* HeaderOne */}
-      <HeaderOne />
+      {/* <HeaderOne /> */}
 
       {/* BreadcrumbThree */}
       <BreadcrumbThree title={"Vendor List"} />

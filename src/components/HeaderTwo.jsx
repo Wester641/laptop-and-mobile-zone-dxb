@@ -274,66 +274,14 @@ const HeaderTwo = ({ category }) => {
                 </ul>
               </li>
               <li
-                onClick={() => handleMenuClick(3)}
-                className={`on-hover-item nav-menu__item has-submenu ${
-                  activeIndex === 3 ? "d-block" : ""
-                }`}
-              >
-                <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
-                  New
-                </span>
-                <Link to="#" className="nav-menu__link">
-                  Vendors
-                </Link>
-                <ul
-                  className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${
-                    activeIndex === 3 ? "open" : ""
-                  }`}
-                >
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/vendor"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      Vendors
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/vendor-details"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      Vendor Details
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/vendor-two"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      Vendors Two
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/vendor-two-details"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      Vendors Two Details
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li
                 onClick={() => handleMenuClick(4)}
                 className={`on-hover-item nav-menu__item has-submenu ${
                   activeIndex === 4 ? "d-block" : ""
                 }`}
               >
+                <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
+                  New
+                </span>
                 <Link to="#" className="nav-menu__link">
                   Blog
                 </Link>
@@ -1857,67 +1805,13 @@ const HeaderTwo = ({ category }) => {
                       </li>
                     </ul>
                   </li>
+                  
                   <li className="on-hover-item nav-menu__item has-submenu">
-                    <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
+                  <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
                       New
                     </span>
                     <Link to="#" className="nav-menu__link">
-                      Vendors
-                    </Link>
-                    <ul className="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/vendor"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Vendor
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/vendor-details"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Vendor Details
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/vendor-two"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Vendor Two
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/vendor-two-details"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Vendor Two Details
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="on-hover-item nav-menu__item has-submenu">
-                    <Link to="#" className="nav-menu__link">
-                      Blog
+                      Blog Page
                     </Link>
                     <ul className="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
                       <li className="common-dropdown__item nav-submenu__item">
