@@ -133,7 +133,7 @@ const SampleNextArrow = memo(function SampleNextArrow(props) {
     <button
       type="button"
       onClick={onClick}
-      className={` AED{className} slick-next slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
+      className={` ${className} slick-next slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
     >
       <i className="ph ph-caret-right" />
     </button>
@@ -146,7 +146,7 @@ const SamplePrevArrow = memo(function SamplePrevArrow(props) {
     <button
       type="button"
       onClick={onClick}
-      className={`AED{className} slick-prev slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
+      className={`${className} slick-prev slick-arrow flex-center rounded-circle border border-gray-100 hover-border-neutral-600 text-xl hover-bg-neutral-600 hover-text-white transition-1`}
     >
       <i className="ph ph-caret-left" />
     </button>
