@@ -7,7 +7,7 @@ import BreadcrumbThree from "../components/BreadcrumbThree";
 import VendorsList from "../components/VendorsList";
 import ShippingOne from "../components/ShippingOne";
 import NewsletterOne from "../components/NewsletterOne";
-import FooterOne from "../components/FooterOne";
+import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 
 const VendorPage = () => {
@@ -37,8 +37,8 @@ const VendorPage = () => {
       {/* NewsletterOne */}
       <NewsletterOne />
 
-      {/* FooterOne */}
-      <FooterOne />
+      {/* FooterTwo */}
+      <FooterTwo />
 
       {/* BottomFooter */}
       <BottomFooter />

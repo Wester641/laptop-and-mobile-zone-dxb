@@ -18,12 +18,11 @@ import BrandOne from "../components/BrandOne";
 import NewArrivalOne from "../components/NewArrivalOne";
 import ShippingOne from "../components/ShippingOne";
 import NewsletterOne from "../components/NewsletterOne";
-import FooterOne from "../components/FooterOne";
+import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ScrollToTop from "react-scroll-to-top";
 import ColorInit from "../helper/ColorInit";
 const HomePageOne = () => {
-
   return (
 
     <>
@@ -91,8 +90,8 @@ const HomePageOne = () => {
       {/* NewsletterOne */}
       <NewsletterOne />
 
-      {/* FooterOne */}
-      <FooterOne />
+      {/* FooterTwo */}
+      <FooterTwo />
 
       {/* BottomFooter */}
       <BottomFooter />

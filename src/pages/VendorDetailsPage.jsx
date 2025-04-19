@@ -6,7 +6,7 @@ import HeaderOne from "../components/HeaderOne";
 import BreadcrumbThree from "../components/BreadcrumbThree";
 import VendorsListTwo from "../components/VendorsListTwo";
 import NewsletterOne from "../components/NewsletterOne";
-import FooterOne from "../components/FooterOne";
+import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 
 const VendorDetailsPage = () => {
@@ -33,8 +33,8 @@ const VendorDetailsPage = () => {
       {/* NewsletterOne */}
       <NewsletterOne />
 
-      {/* FooterOne */}
-      <FooterOne />
+      {/* FooterTwo */}
+      <FooterTwo />
 
       {/* BottomFooter */}
       <BottomFooter />

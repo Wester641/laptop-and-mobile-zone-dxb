@@ -5,7 +5,7 @@ import ProductDetailsOne from "../components/ProductDetailsOne";
 import NewArrivalTwo from "../components/NewArrivalTwo";
 import ShippingOne from "../components/ShippingOne";
 import NewsletterOne from "../components/NewsletterOne";
-import FooterOne from "../components/FooterOne";
+import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import BreadcrumbTwo from './../components/BreadcrumbTwo';
 import ScrollToTop from "react-scroll-to-top";
@@ -46,7 +46,7 @@ const ProductDetailsPageOne = () => {
       <NewsletterOne />
 
       {/* FooterTwo */}
-      <FooterOne />
+      <FooterTwo />
 
       {/* BottomFooter */}
       <BottomFooter />
