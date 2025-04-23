@@ -4,7 +4,7 @@ import RouteScrollToTop from "./helper/RouteScrollToTop";
 import HomePageTwo from "./pages/HomePageTwo";
 // import HomePageThree from "./pages/HomePageThree";
 import ShopPage from "./pages/ShopPage";
-import ProductDetailsPageOne from "./pages/ProductDetailsPageOne";
+// import ProductDetailsPageOne from "./pages/ProductDetailsPageOne";
 import ProductDetailsPageTwo from "./pages/ProductDetailsPageTwo";
 import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/CheckoutPage";
@@ -13,11 +13,11 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import ContactPage from "./pages/ContactPage";
 import PhosphorIconInit from "./helper/PhosphorIconInit";
-import VendorPage from "./pages/VendorPage";
-import VendorDetailsPage from "./pages/VendorDetailsPage";
+// import VendorPage from "./pages/VendorPage";
+// import VendorDetailsPage from "./pages/VendorDetailsPage";
 import VendorTwoPage from "./pages/VendorTwoPage";
 import VendorTwoDetailsPage from "./pages/VendorTwoDetailsPage";
-import BecomeSellerPage from "./pages/BecomeSellerPage";
+// import BecomeSellerPage from "./pages/BecomeSellerPage";
 import WishlistPage from "./pages/WishlistPage";
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<HomePageTwo />} />
-        <Route exact path="/index-two" element={<HomePageTwo />} />
-        <Route exact path="/index-three" element={<HomePageTwo />} />
+        {/* <Route exact path="/index-two" element={<HomePageTwo />} />
+        <Route exact path="/index-three" element={<HomePageTwo />} /> */}
         <Route exact path="/shop" element={<ShopPage />} />
         <Route
           exact
@@ -42,7 +42,7 @@ function App() {
         />
         <Route exact path="/cart" element={<CartPage />} />
         <Route exact path="/checkout" element={<CheckoutPage />} />
-        <Route exact path="/become-seller" element={<BecomeSellerPage />} />
+        {/* <Route exact path="#" element={<BecomeSellerPage />} /> */}
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/account" element={<AccountPage />} />
         <Route exact path="/blog" element={<BlogPage />} />

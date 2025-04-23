@@ -196,16 +196,6 @@ const HeaderTwo = ({ category }) => {
                       Shop Details
                     </Link>
                   </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/product-details-two"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Shop Details Two
-                    </Link>
-                  </li>
                 </ul>
               </li>
               <li
@@ -253,15 +243,7 @@ const HeaderTwo = ({ category }) => {
                       Checkout
                     </Link>
                   </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/become-seller"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      Become Seller
-                    </Link>
-                  </li>
+
                   <li className="common-dropdown__item nav-submenu__item">
                     <Link
                       onClick={() => setActiveIndex(null)}
@@ -1772,19 +1754,6 @@ const HeaderTwo = ({ category }) => {
                           Shop Details
                         </NavLink>
                       </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/product-details-two"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          {" "}
-                          Shop Details Two
-                        </NavLink>
-                      </li>
                     </ul>
                   </li>
                   <li className="on-hover-item nav-menu__item has-submenu">
@@ -1831,18 +1800,7 @@ const HeaderTwo = ({ category }) => {
                           Checkout
                         </NavLink>
                       </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/become-seller"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Become Seller
-                        </NavLink>
-                      </li>
+
                       <li className="common-dropdown__item nav-submenu__item">
                         <NavLink
                           to="/account"
