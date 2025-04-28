@@ -280,5 +280,7 @@ const FooterTwo = () => {
                 </div>
             </div>
         </footer>
+    );
+}
 
 export default FooterTwo;

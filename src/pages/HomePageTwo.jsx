@@ -21,12 +21,9 @@ import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ColorInit from "../helper/ColorInit";
 import ScrollToTop from "react-scroll-to-top";
-<<<<<<< HEAD
+
 import UpdateFields from "../components/firebase/UpdateFields";
 import GetFields from "../components/firebase/GetFields";
-=======
-import DealsOne2 from "../components/DealsOne2";
->>>>>>> 29a7191bf90f07cc4995f8f591b302f217ce802c
 
 const HomePageTwo = () => {
   return (
@@ -52,11 +49,6 @@ const HomePageTwo = () => {
       {/* DealsOne */}
       <DealsOne />
 
-<<<<<<< HEAD
-=======
-      {/* <DealsOne2 /> */}
-
->>>>>>> 29a7191bf90f07cc4995f8f591b302f217ce802c
       {/* TrendingOne */}
       <TrendingOne />
 

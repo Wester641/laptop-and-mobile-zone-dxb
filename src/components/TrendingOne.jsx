@@ -158,5 +158,7 @@ const TrendingOne = () => {
                 </div>
             </div>
         </section>
+    );
+}
 
 export default TrendingOne;
