@@ -159,7 +159,4 @@ const TrendingOne = () => {
             </div>
         </section>
 
-    )
-}
-
-export default TrendingOne
+export default TrendingOne;

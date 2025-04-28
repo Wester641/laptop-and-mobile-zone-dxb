@@ -25,6 +25,9 @@ const dealLaptops = [
     stock_state: "Best Seller",
     rating: "4.8",
     reviewCount: "11k",
+    stock_state: "Best Seller",
+    rating: "4.8",
+    reviewCount: "11k",
     title: "Macbook Air 13-inch",
     shop_name: "By Laptop Shop",
     sold_quantity: "Sold: 13/55",
@@ -208,7 +211,7 @@ const DealsOne = () => {
         <div className="border border-gray-100 p-24 rounded-16">
           <div className="section-heading mb-24">
             <div className="flex-between flex-wrap gap-8">
-              <h5 className="mb-0">Deal of The Week</h5>
+              <h5 className="mb-0">Apple products</h5>
               <div className="flex-align mr-point gap-16">
                 <Link
                   to="/shop"
