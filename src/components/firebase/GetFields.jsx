@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../../lib/firebaseConfig";
-import "./main.css"
-
+import "./main.css";
 
 function GetFields() {
-  const [product, setProduct] = useState(null); 
+  const [product, setProduct] = useState(null);
 
   const fetchProduct = async () => {
     const docId = "EAK9JmIH83sUjqJLDeL6";
@@ -15,17 +14,17 @@ function GetFields() {
       const docSnap = await getDoc(productRef);
 
       if (docSnap.exists()) {
-        setProduct(docSnap.data()); 
+        setProduct(docSnap.data());
       } else {
-        console.log("Документ не найден!");
+        console.log("Document not found!");
       }
     } catch (error) {
-      console.error("Ошибка при получении данных: ", error);
+      console.error("Error getting document:", error);
     }
   };
 
   useEffect(() => {
-    fetchProduct(); 
+    fetchProduct();
   }, []);
 
   return (

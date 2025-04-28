@@ -168,10 +168,10 @@ const HeaderTwo = ({ category }) => {
                   activeIndex === 1 ? "d-block" : ""
                 }`}
               >
-                <Link to="#" className="nav-menu__link">
+                <Link to="/shop" className="nav-menu__link">
                   Shop
                 </Link>
-                <ul
+                {/* <ul
                   className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${
                     activeIndex === 1 ? "open" : ""
                   }`}
@@ -196,7 +196,7 @@ const HeaderTwo = ({ category }) => {
                       Shop Details
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li
                 onClick={() => handleMenuClick(2)}
@@ -565,17 +565,6 @@ const HeaderTwo = ({ category }) => {
                   </span>
                 </button>
                 <Link
-                  to="/account"
-                  className="flex-align flex-column gap-8 item-hover-two"
-                >
-                  <span className="text-2xl text-white d-flex position-relative item-hover__text">
-                    <i className="ph ph-user" />
-                  </span>
-                  <span className="text-md text-white item-hover__text d-none d-lg-flex">
-                    Profile
-                  </span>
-                </Link>
-                <Link
                   to="/wishlist"
                   className="flex-align flex-column gap-8 item-hover-two"
                 >
@@ -587,20 +576,6 @@ const HeaderTwo = ({ category }) => {
                   </span>
                   <span className="text-md text-white item-hover__text d-none d-lg-flex">
                     Wishlist
-                  </span>
-                </Link>
-                <Link
-                  to="/cart"
-                  className="flex-align flex-column gap-8 item-hover-two"
-                >
-                  <span className="text-2xl text-white d-flex position-relative me-6 mt-6 item-hover__text">
-                    <i className="ph-fill ph-shuffle" />
-                    <span className="w-16 h-16 flex-center rounded-circle bg-main-two-600 text-white text-xs position-absolute top-n6 end-n4">
-                      2
-                    </span>
-                  </span>
-                  <span className="text-md text-white item-hover__text d-none d-lg-flex">
-                    Compare
                   </span>
                 </Link>
                 <Link
@@ -1672,37 +1647,17 @@ const HeaderTwo = ({ category }) => {
                       </li>
                     </ul>
                   </li>
-                  <li className="on-hover-item nav-menu__item has-submenu">
-                    <Link to="#" className="nav-menu__link">
+                  <li className="nav-menu__item">
+                    <NavLink
+                      to="/shop"
+                      className={(navData) =>
+                        navData.isActive
+                          ? "nav-menu__link activePage"
+                          : "nav-menu__link"
+                      }
+                    >
                       Shop
-                    </Link>
-                    <ul className="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/shop"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          Shop
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/product-details"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          {" "}
-                          Shop Details
-                        </NavLink>
-                      </li>
-                    </ul>
+                    </NavLink>
                   </li>
                   <li className="on-hover-item nav-menu__item has-submenu">
                     <span className="badge-notification bg-warning-600 text-white text-sm py-2 px-8 rounded-4">
@@ -1763,9 +1718,9 @@ const HeaderTwo = ({ category }) => {
                       </li>
                     </ul>
                   </li>
-                  
+
                   <li className="on-hover-item nav-menu__item has-submenu">
-                  <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
+                    <span className="badge-notification bg-tertiary-600 text-white text-sm py-2 px-8 rounded-4">
                       New
                     </span>
                     <Link to="#" className="nav-menu__link">

@@ -8,7 +8,7 @@ const firebaseConfig = {
   storageBucket: "laptop-6c7de.firebasestorage.app",
   messagingSenderId: "773391009622",
   appId: "1:773391009622:web:d14aa68f23902db661f8f7",
-  measurementId: "G-100T4YNH2W"
+  measurementId: "G-100T4YNH2W",
 };
 
 const app = initializeApp(firebaseConfig);
