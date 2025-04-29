@@ -10,11 +10,17 @@ import NewsletterOne from "../components/NewsletterOne";
 import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ScrollToTop from "react-scroll-to-top";
-
+import { useParams } from "react-router-dom";
+import { dealLaptops } from "../data/otherLaptops";
 
 const ProductDetailsPageTwo = () => {
+  // const { id } = useParams();
 
+  // const project = dealLaptops.find((p) => p.id === id);
 
+  // if (!project) return <p>Project is not defined</p>;
+
+  // console.log(project);
 
   return (
     <>
@@ -50,8 +56,6 @@ const ProductDetailsPageTwo = () => {
 
       {/* BottomFooter */}
       <BottomFooter />
-
-
     </>
   );
 };

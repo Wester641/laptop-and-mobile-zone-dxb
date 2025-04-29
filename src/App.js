@@ -32,6 +32,11 @@ function App() {
           path="/product-details-two"
           element={<ProductDetailsPageTwo />}
         />
+        <Route
+          exact
+          path="/product-details-two/:id"
+          element={<ProductDetailsPageTwo />}
+        />
         <Route exact path="/cart" element={<CartPage />} />
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />

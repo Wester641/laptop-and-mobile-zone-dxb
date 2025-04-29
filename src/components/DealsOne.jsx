@@ -2,133 +2,7 @@ import React, { memo, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { getCountdown } from "../helper/Countdown";
-
-
-const dealLaptops = [
-  {
-    id: 1,
-    stock_state: "Sold",
-    rating: "4.8",
-    reviewCount: "17k",
-    title: "HP Chromebook 14-inch Laptop",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 14/55",
-    old_price: "AED149.99",
-    new_price: "AED119.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 2,
-    stock_state: "Best Seller",
-    rating: "4.8",
-    reviewCount: "11k",
-    stock_state: "Best Seller",
-    rating: "4.8",
-    reviewCount: "11k",
-    title: "Macbook Air 13-inch",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 13/55",
-    old_price: "AED1099.99",
-    new_price: "AED899.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 3,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 4,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 5,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 6,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 7,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  },
-  {
-    id: 8,
-    stock_state: "New",
-    rating: "4.8",
-    reviewCount: "10k",
-    title: "Lenovo ThinkPad T16 Gen 3",
-    shop_name: "By Laptop Shop",
-    sold_quantity: "Sold: 10/40",
-    old_price: "AED1999.99",
-    new_price: "AED1199.99",
-    add_button: "Add To Cart",
-    add_link: "/cart",
-    detail_link: "/product-details-two",
-    image: "assets/images/thumbs/hp.png",
-  }
-]
+import { newHpLaptops } from "../data/otherLaptops";
 
 const SampleNextArrow = memo(function SampleNextArrow(props) {
   const { className, onClick } = props;
@@ -262,89 +136,91 @@ const DealsOne = () => {
           </div>
           <div className="deals-week-slider arrow-style-two">
             <Slider {...settings}>
-            {dealLaptops.map((laptop) => (
-              <div key={laptop.id}>
-                <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                  <Link
-                    to={laptop.detail_link}
-                    className="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative"
-                  >
-                    <span className="product-card__badge bg-main-600 px-8 py-4 text-sm text-white position-absolute inset-inline-start-0 inset-block-start-0">
-                      {laptop.stock_state}
-                    </span>
-                    <img
-                      src={laptop.image}
-                      alt=""
-                      className="w-auto  max-width"
-                    />
-                  </Link>
-                  <div className="product-card__content mt-16">
-                    <div className="flex-align gap-6">
-                      <span className="text-xs fw-medium text-gray-500">
-                        {laptop.rating}
+              {newHpLaptops?.map((laptop) => (
+                <div key={laptop.id}>
+                  <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
+                    <Link
+                      to={laptop.detail_link}
+                      className="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative"
+                    >
+                      <span className="product-card__badge bg-main-600 px-8 py-4 text-sm text-white position-absolute inset-inline-start-0 inset-block-start-0">
+                        {laptop.stock_state}
                       </span>
-                      <span className="text-15 fw-medium text-warning-600 d-flex">
-                        <i className="ph-fill ph-star" />
-                      </span>
-                      <span className="text-xs fw-medium text-gray-500">
-                        {laptop.reviewCount}
-                      </span>
-                    </div>
-                    <h6 className="title text-lg fw-semibold mt-12 mb-8">
+                      <img
+                        src={laptop.image}
+                        alt=""
+                        className="w-auto  max-width"
+                      />
+                    </Link>
+                    <div className="product-card__content mt-16">
+                      <div className="flex-align gap-6">
+                        <span className="text-xs fw-medium text-gray-500">
+                          {laptop.rating}
+                        </span>
+                        <span className="text-15 fw-medium text-warning-600 d-flex">
+                          <i className="ph-fill ph-star" />
+                        </span>
+                        <span className="text-xs fw-medium text-gray-500">
+                          {laptop.reviewCount}
+                        </span>
+                      </div>
+                      <h6 className="title text-lg fw-semibold mt-12 mb-8">
+                        <Link
+                          to="/product-details-two"
+                          className="link text-line-2"
+                          tabIndex={0}
+                        >
+                          {laptop.title}
+                        </Link>
+                      </h6>
+                      <div className="flex-align gap-4">
+                        <span className="text-tertiary-600 text-md d-flex">
+                          <i className="ph-fill ph-storefront" />
+                        </span>
+                        <span className="text-gray-500 text-xs">
+                          {laptop.shop_name}
+                        </span>
+                      </div>
+                      <div className="mt-8">
+                        <div
+                          className="progress w-100 bg-color-three rounded-pill h-4"
+                          role="progressbar"
+                          aria-label="Basic example"
+                          aria-valuenow={35}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                        >
+                          <div
+                            className="progress-bar bg-tertiary-600 rounded-pill"
+                            style={{ width: "35%" }}
+                          />
+                        </div>
+                        <span className="text-gray-900 text-xs fw-medium mt-8">
+                          {laptop.sold_quantity}
+                        </span>
+                      </div>
+                      <div className="product-card__price my-20">
+                        <span className="text-gray-400 text-md fw-semibold text-decoration-line-through">
+                          {laptop.old_price}
+                        </span>
+                        <span className="text-heading text-md fw-semibold">
+                          {" "}
+                          {laptop.new_price}
+                          <span className="text-gray-500 fw-normal">/Qty</span>
+                        </span>
+                      </div>
                       <Link
-                        to="/product-details-two"
-                        className="link text-line-2"
+                        to={laptop.add_link}
+                        className="product-card__cart btn bg-gray-50 text-heading hover-bg-main-600 hover-text-white py-11 px-24 rounded-8 flex-center gap-8 fw-medium"
                         tabIndex={0}
                       >
-                        {laptop.title}
+                        {laptop.add_button}{" "}
+                        <i className="ph ph-shopping-cart" />
                       </Link>
-                    </h6>
-                    <div className="flex-align gap-4">
-                      <span className="text-tertiary-600 text-md d-flex">
-                        <i className="ph-fill ph-storefront" />
-                      </span>
-                      <span className="text-gray-500 text-xs">
-                        {laptop.shop_name}
-                      </span>
                     </div>
-                    <div className="mt-8">
-                      <div
-                        className="progress w-100 bg-color-three rounded-pill h-4"
-                        role="progressbar"
-                        aria-label="Basic example"
-                        aria-valuenow={35}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                      >
-                        <div
-                          className="progress-bar bg-tertiary-600 rounded-pill"
-                          style={{ width: "35%" }}
-                        />
-                      </div>
-                      <span className="text-gray-900 text-xs fw-medium mt-8">
-                        {laptop.sold_quantity}
-                      </span>
-                    </div>
-                    <div className="product-card__price my-20">
-                      <span className="text-gray-400 text-md fw-semibold text-decoration-line-through">
-                        {laptop.old_price}
-                      </span>
-                      <span className="text-heading text-md fw-semibold ">
-                        {laptop.new_price}
-                        <span className="text-gray-500 fw-normal">/Qty</span>{" "}
-                      </span>
-                    </div>
-                    <Link
-                      to={laptop.add_link}
-                      className="product-card__cart btn bg-gray-50 text-heading hover-bg-main-600 hover-text-white py-11 px-24 rounded-8 flex-center gap-8 fw-medium"
-                      tabIndex={0}
-                    >
-                      {laptop.add_button} <i className="ph ph-shopping-cart" />
-                    </Link>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
             </Slider>
           </div>
         </div>
