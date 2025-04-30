@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { getCountdown } from '../helper/Countdown';
 
-const ProductDetailsTwo = () => {
+const ProductDetailsTwo = ({ project }) => {
     const [timeLeft, setTimeLeft] = useState(getCountdown());
 
     useEffect(() => {
@@ -40,6 +40,19 @@ const ProductDetailsTwo = () => {
     };
     return (
         <section className="product-details py-80">
+             <div style={{ padding: "20px" }}>
+      <h1>{project.title}</h1>
+       <img src={project.image} alt={project.title} style={{ maxWidth: "200px" }} />
+       <p>Price: {project.new_price}</p>
+       <p>Original Price: {project.old_price}</p>
+       <p>Rating: {project.rating} ({project.reviewCount} reviews)</p>
+       <p>Stock: {project.stock_state}</p>
+       <p>Sold: {project.sold_quantity}</p>
+       <p>Shop: {project.shop_name}</p>
+       <a href={project.add_link}>
+         <button>{project.add_button}</button>
+       </a>
+     </div>
             <div className="container container-lg">
                 <div className="row gy-4">
                     <div className="col-xl-9">

@@ -14,14 +14,14 @@ import { useParams } from "react-router-dom";
 import { dealLaptops } from "../data/otherLaptops";
 
 const ProductDetailsPageTwo = () => {
-  // const { id } = useParams();
+   const { id } = useParams();
+  const project = dealLaptops.find((p) => p.id === parseInt(id));
 
-  // const project = dealLaptops.find((p) => p.id === id);
+  if (!project) {
+    return <p>Product not found in dealLaptops</p>;
+  }
 
-  // if (!project) return <p>Project is not defined</p>;
-
-  // console.log(project);
-
+  console.log("Selected Product:", project);
   return (
     <>
       {/* ColorInit */}
@@ -40,7 +40,7 @@ const ProductDetailsPageTwo = () => {
       <Breadcrumb title={"Product Details"} />
 
       {/* ProductDetailsTwo */}
-      <ProductDetailsTwo />
+      <ProductDetailsTwo project={project}  />
 
       {/* NewArrivalTwo */}
       <NewArrivalTwo />
@@ -61,3 +61,5 @@ const ProductDetailsPageTwo = () => {
 };
 
 export default ProductDetailsPageTwo;
+
+

@@ -26,6 +26,8 @@ import UpdateFields from "../components/firebase/UpdateFields";
 import GetFields from "../components/firebase/GetFields";
 
 const HomePageTwo = () => {
+
+
   return (
     <>
       {/* ColorInit */}

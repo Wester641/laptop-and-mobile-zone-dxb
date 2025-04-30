@@ -22,17 +22,17 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePageTwo />} />
         <Route exact path="/shop" element={<ShopPage />} />
-        <Route
+        {/* <Route
           exact
           path="/product-details"
           element={<ProductDetailsPageTwo />}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path="/product-details-two"
           element={<ProductDetailsPageTwo />}
-        />
-        <Route
+        /> */}
+       <Route
           exact
           path="/product-details-two/:id"
           element={<ProductDetailsPageTwo />}

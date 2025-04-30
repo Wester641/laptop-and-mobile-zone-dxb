@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { getCountdown } from "../helper/Countdown";
-import { newHpLaptops } from "../data/otherLaptops";
+import { dealLaptops } from "../data/otherLaptops";
 
 const SampleNextArrow = memo(function SampleNextArrow(props) {
   const { className, onClick } = props;
@@ -136,11 +136,11 @@ const DealsOne = () => {
           </div>
           <div className="deals-week-slider arrow-style-two">
             <Slider {...settings}>
-              {newHpLaptops?.map((laptop) => (
+              {dealLaptops?.map((laptop) => (
                 <div key={laptop.id}>
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
-                      to={laptop.detail_link}
+                      to={`/product-details-two/${laptop.id}`} // Динамическая ссылка
                       className="product-card__thumb flex-center rounded-8 bg-gray-50 position-relative"
                     >
                       <span className="product-card__badge bg-main-600 px-8 py-4 text-sm text-white position-absolute inset-inline-start-0 inset-block-start-0">
@@ -166,7 +166,7 @@ const DealsOne = () => {
                       </div>
                       <h6 className="title text-lg fw-semibold mt-12 mb-8">
                         <Link
-                          to="/product-details-two"
+                          to={`/product-details-two/${laptop.id}`} // Динамическая ссылка
                           className="link text-line-2"
                           tabIndex={0}
                         >
