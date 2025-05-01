@@ -26,8 +26,6 @@ import UpdateFields from "../components/firebase/UpdateFields";
 import GetFields from "../components/firebase/GetFields";
 
 const HomePageTwo = () => {
-
-
   return (
     <>
       {/* ColorInit */}
@@ -86,10 +84,10 @@ const HomePageTwo = () => {
 
       {/* NewsletterTwo */}
       <NewsletterTwo />
-      
-      <UpdateFields/>
 
-<GetFields/>
+      <UpdateFields />
+
+      <GetFields />
 
       {/* FooterTwo */}
       <FooterTwo />

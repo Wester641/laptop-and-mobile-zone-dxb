@@ -14,7 +14,7 @@ import { useParams } from "react-router-dom";
 import { dealLaptops } from "../data/otherLaptops";
 
 const ProductDetailsPageTwo = () => {
-   const { id } = useParams();
+  const { id } = useParams();
   const project = dealLaptops.find((p) => p.id === parseInt(id));
 
   if (!project) {
@@ -40,7 +40,7 @@ const ProductDetailsPageTwo = () => {
       <Breadcrumb title={"Product Details"} />
 
       {/* ProductDetailsTwo */}
-      <ProductDetailsTwo project={project}  />
+      <ProductDetailsTwo project={project} />
 
       {/* NewArrivalTwo */}
       <NewArrivalTwo />
@@ -61,5 +61,3 @@ const ProductDetailsPageTwo = () => {
 };
 
 export default ProductDetailsPageTwo;
-
-
