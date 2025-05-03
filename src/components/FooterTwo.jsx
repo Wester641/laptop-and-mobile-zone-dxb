@@ -9,8 +9,7 @@ const FooterTwo = () => {
           <div className="footer-item max-w-275">
             <div className="footer-item__logo">
               <Link to="/">
-                {" "}
-                <img src="assets/images/logo/logo-two-black.png" alt="" />
+                <img src="/assets/images/logo/logo.png" alt="L&M" />
               </Link>
             </div>
             <p className="mb-24">
@@ -22,10 +21,10 @@ const FooterTwo = () => {
                 <i className="ph-fill ph-phone-call" />
               </span>
               <Link
-                to="/tel:+00123456789"
+                to="tel:+971569440264"
                 className="text-md text-gray-900 hover-text-main-600"
               >
-                +00 123 456 789
+                +971 56 944 0264
               </Link>
             </div>
             <div className="flex-align gap-16 mb-16">
@@ -33,19 +32,21 @@ const FooterTwo = () => {
                 <i className="ph-fill ph-envelope" />
               </span>
               <Link
-                to="/mailto:support24@laptopshop.com"
+                to="mailto:zafarzhon10@gmail.com"
                 className="text-md text-gray-900 hover-text-main-600"
               >
-                support24@laptopshop.com
+                zafarzhon10@gmail.com
               </Link>
             </div>
             <div className="flex-align gap-16 mb-16">
               <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-two-600 text-md flex-shrink-0">
                 <i className="ph-fill ph-map-pin" />
               </span>
-              <span className="text-md text-gray-900 ">
-                789 Inner Lane, California, USA
-              </span>
+              <Link to="https://g.co/kgs/uBkcFN9">
+                <span className="text-md text-gray-900 ">
+                  Al Musalla Road, Naif, Deira, Dubai, UAE
+                </span>
+              </Link>
             </div>
           </div>
           <div className="footer-item">

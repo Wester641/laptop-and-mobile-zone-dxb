@@ -2,7 +2,6 @@ import React, { memo, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { getCountdown } from "../helper/Countdown";
-// import { dealLaptops } from "../data/otherLaptops";
 import { newMacbooks } from "../data/macbooks";
 
 const SampleNextArrow = memo(function SampleNextArrow(props) {
@@ -97,7 +96,7 @@ const DealsOne = () => {
               </div>
             </div>
           </div>
-          <div className="deal-week-box rounded-16 overflow-hidden flex-between position-relative z-1 mb-24">
+          {/* <div className="deal-week-box rounded-16 overflow-hidden flex-between position-relative z-1 mb-24">
             <img
               src="assets/images/bg/week-deal-bg.png"
               alt=""
@@ -134,7 +133,7 @@ const DealsOne = () => {
                 <img src="assets/images/thumbs/week-deal-img2.png" alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="deals-week-slider arrow-style-two">
             <Slider {...settings}>
               {newMacbooks?.map((laptop) => (
@@ -211,11 +210,10 @@ const DealsOne = () => {
                         </span>
                       </div>
                       <Link
-                        to={laptop.add_link}
+                        to={`/product-details-two/${laptop.id}`} // Динамическая ссылка
                         className="product-card__cart btn bg-gray-50 text-heading hover-bg-main-600 hover-text-white py-11 px-24 rounded-8 flex-center gap-8 fw-medium"
                         tabIndex={0}
                       >
-                        {laptop.add_button}{" "}
                         <i className="ph ph-shopping-cart" />
                       </Link>
                     </div>

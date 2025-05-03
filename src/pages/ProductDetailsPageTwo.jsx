@@ -4,24 +4,23 @@ import ColorInit from "../helper/ColorInit";
 import HeaderTwo from "../components/HeaderTwo";
 import Breadcrumb from "../components/Breadcrumb";
 import ProductDetailsTwo from "../components/ProductDetailsTwo";
-import NewArrivalTwo from "../components/NewArrivalTwo";
+// import NewArrivalTwo from "../components/NewArrivalTwo";
 import ShippingOne from "../components/ShippingOne";
-import NewsletterOne from "../components/NewsletterOne";
+// import NewsletterOne from "../components/NewsletterOne";
 import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ScrollToTop from "react-scroll-to-top";
 import { useParams } from "react-router-dom";
-import { dealLaptops } from "../data/otherLaptops";
+import { newMacbooks } from "../data/macbooks";
 
 const ProductDetailsPageTwo = () => {
   const { id } = useParams();
-  const project = dealLaptops.find((p) => p.id === parseInt(id));
+  const project = newMacbooks.find((p) => p.id === parseInt(id));
 
   if (!project) {
-    return <p>Product not found in dealLaptops</p>;
+    return <p>Product not found in newMacbooks</p>;
   }
 
-  console.log("Selected Product:", project);
   return (
     <>
       {/* ColorInit */}
@@ -40,16 +39,16 @@ const ProductDetailsPageTwo = () => {
       <Breadcrumb title={"Product Details"} />
 
       {/* ProductDetailsTwo */}
-      <ProductDetailsTwo project={project} />
+      <ProductDetailsTwo laptop={project} />
 
       {/* NewArrivalTwo */}
-      <NewArrivalTwo />
+      {/* <NewArrivalTwo /> */}
 
       {/* ShippingOne */}
       <ShippingOne />
 
       {/* NewsletterOne */}
-      <NewsletterOne />
+      {/* <NewsletterOne /> */}
 
       {/* FooterTwo */}
       <FooterTwo />
