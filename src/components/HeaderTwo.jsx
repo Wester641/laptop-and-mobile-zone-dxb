@@ -267,200 +267,7 @@ const HeaderTwo = ({ category }) => {
             {/* form Category Start */}
             <div className="flex-align gap-16">
               <div className="select-dropdown-for-home-two d-lg-none d-block">
-                {/* Dropdown Select Start */}
-                <ul className="header-top__right style-two flex-align flex-wrap">
-                  <li className="on-hover-item border-right-item border-right-item-sm-space has-submenu arrow-white">
-                    {/* Display the selected language */}
-                    <Link
-                      to="#"
-                      className="selected-text text-heading text-sm py-8"
-                    >
-                      {selectedLanguage}
-                    </Link>
-                    <ul className="selectable-text-list on-hover-dropdown common-dropdown common-dropdown--sm max-h-200 scroll-sm px-0 py-8">
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("English")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag1.png"
-                            alt="English"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          English
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("Japan")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag2.png"
-                            alt="Japan"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          Japan
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("French")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag3.png"
-                            alt="French"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          French
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("Germany")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag4.png"
-                            alt="Germany"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          Germany
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("Bangladesh")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag6.png"
-                            alt="Bangladesh"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          Bangladesh
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleLanguageChange("South Korea")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag5.png"
-                            alt="South Korea"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          South Korea
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="on-hover-item border-right-item border-right-item-sm-space has-submenu arrow-white">
-                    {/* Display the selected currency */}
-                    <Link
-                      to="#"
-                      className="selected-text text-heading text-sm py-8"
-                    >
-                      {selectedCurrency}
-                    </Link>
-                    <ul className="selectable-text-list on-hover-dropdown common-dropdown common-dropdown--sm max-h-200 scroll-sm px-0 py-8">
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("USD")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag1.png"
-                            alt="USD"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          USD
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("Yen")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag2.png"
-                            alt="Yen"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          Yen
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("Franc")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag3.png"
-                            alt="Franc"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          Franc
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("EURO")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag4.png"
-                            alt="EURO"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          EURO
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("BDT")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag6.png"
-                            alt="BDT"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          BDT
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="#"
-                          className="hover-bg-gray-100 text-gray-500 text-xs py-6 px-16 flex-align gap-8 rounded-0"
-                          onClick={() => handleCurrencyChange("WON")}
-                        >
-                          <img
-                            src="assets/images/thumbs/flag5.png"
-                            alt="WON"
-                            className="w-16 h-12 rounded-4 border border-gray-100"
-                          />
-                          WON
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                {/* Dropdown Select End */}
+                <i className="ph ph-laptop" />
               </div>
               <form
                 action="#"
@@ -472,17 +279,17 @@ const HeaderTwo = ({ category }) => {
                     className="js-example-basic-single border border-gray-200 border-end-0 rounded-0 border-0"
                     name="state"
                   >
-                    <option value={1}>All Categories</option>
-                    <option value={1}>Grocery</option>
-                    <option value={1}>Breakfast &amp; Dairy</option>
-                    <option value={1}>Vegetables</option>
-                    <option value={1}>Milks and Dairies</option>
-                    <option value={1}>Pet Foods &amp; Toy</option>
-                    <option value={1}>Breads &amp; Bakery</option>
-                    <option value={1}>Fresh Seafood</option>
-                    <option value={1}>Fronzen Foods</option>
-                    <option value={1}>Noodles &amp; Rice</option>
-                    <option value={1}>Ice Cream</option>
+                    <option value="all">All Categories</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="smartphones">Smartphones</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="headphones">Headphones & Earbuds</option>
+                    <option value="smartwatches">Smartwatches</option>
+                    <option value="gaming">Gaming Consoles</option>
+                    <option value="monitors">Monitors & Displays</option>
+                    <option value="cameras">Cameras</option>
+                    <option value="printers">Printers & Scanners</option>
                   </select>
                   <div className="search-form__wrapper position-relative">
                     <input
@@ -607,7 +414,7 @@ const HeaderTwo = ({ category }) => {
                         to="#"
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
-                        <span>Cell Phone</span>
+                        <span>Laptops</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
@@ -618,26 +425,23 @@ const HeaderTwo = ({ category }) => {
                         }`}
                       >
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Cell Phone
+                          Laptops
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Samsung</Link>
+                            <Link to="/shop">MacBooks & Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Iphone</Link>
+                            <Link to="/shop">HP & Dell Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Vivo</Link>
+                            <Link to="/shop">Gaming Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Oppo</Link>
+                            <Link to="/shop">Tablets & iPads</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
+                            <Link to="/shop">Accessories & Chargers</Link>
                           </li>
                         </ul>
                       </div>
@@ -652,7 +456,7 @@ const HeaderTwo = ({ category }) => {
                         to="#"
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
-                        <span>Wear</span>
+                        <span>Tablet PCs</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
@@ -663,26 +467,35 @@ const HeaderTwo = ({ category }) => {
                         }`}
                       >
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Wear
+                          Tablet PCs
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Samsung</Link>
+                            <Link to="/shop">Tablets & iPads</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Iphone</Link>
+                            <Link to="/shop">Accessories & Chargers</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Vivo</Link>
+                            <Link to="/shop">Smart Watches & Wearables</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Oppo</Link>
+                            <Link to="/shop">Headphones & Audio</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Itel</Link>
+                            <Link to="/shop">Monitors & Keyboards</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Realme</Link>
+                            <Link to="/shop">iPhones & Apple Devices</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Samsung Smartphones</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">MacBooks & Laptops</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">HP & Dell Laptops</Link>
                           </li>
                         </ul>
                       </div>
@@ -697,7 +510,7 @@ const HeaderTwo = ({ category }) => {
                         to="#"
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
-                        <span>Computer</span>
+                        <span>Apple Products</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
@@ -708,26 +521,32 @@ const HeaderTwo = ({ category }) => {
                         }`}
                       >
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Computer
+                          Apple Products
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Samsung</Link>
+                            <Link to="/shop">iPhone</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Iphone</Link>
+                            <Link to="/shop">Macbook</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Vivo</Link>
+                            <Link to="/shop">iMac</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Oppo</Link>
+                            <Link to="/shop">Mac Mini</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Itel</Link>
+                            <Link to="/shop">iPad</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Realme</Link>
+                            <Link to="/shop">Airpods</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Airpods Pro</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Apple Watch</Link>
                           </li>
                         </ul>
                       </div>
@@ -742,7 +561,7 @@ const HeaderTwo = ({ category }) => {
                         to="#"
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
-                        <span>Headphone</span>
+                        <span>Google Pixels</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
@@ -753,26 +572,29 @@ const HeaderTwo = ({ category }) => {
                         }`}
                       >
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Headphone
+                          Google Pixels
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Samsung</Link>
+                            <Link to="/shop">Google Pixels 1</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Iphone</Link>
+                            <Link to="/shop">Google Pixels 2</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Vivo</Link>
+                            <Link to="/shop">Google Pixels 3</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Oppo</Link>
+                            <Link to="/shop">Google Pixels 4</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Itel</Link>
+                            <Link to="/shop">Google Pixels 5</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Realme</Link>
+                            <Link to="/shop">Google Pixels 6</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Google Pixels 7</Link>
                           </li>
                         </ul>
                       </div>
@@ -787,7 +609,7 @@ const HeaderTwo = ({ category }) => {
                         to="#"
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
-                        <span>Smart Screen</span>
+                        <span>Used Devices</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
@@ -798,432 +620,23 @@ const HeaderTwo = ({ category }) => {
                         }`}
                       >
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Smart Screen
+                          Used Devices
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Samsung</Link>
+                            <Link to="/shop">HP & Dell Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Iphone</Link>
+                            <Link to="/shop">Nothing Phones</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Vivo</Link>
+                            <Link to="/shop">iPhones & Apple Devices</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Oppo</Link>
+                            <Link to="/shop">Samsung Smartphones</Link>
                           </li>
                           <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(5)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 5 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Smart Home</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 5 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Smart Home
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(6)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 6 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Digital Accessories</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 6 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Digital Accessories
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(7)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 7 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span> Value Added Services</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 7 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          {" "}
-                          Value Added Services
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(8)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 8 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Car Products</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 8 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Car Products
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(9)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 9 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Ecological Products</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 9 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Ecological Products
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(10)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 10 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Flat</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 10 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Flat
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(11)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 11 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Commercial Terminal</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 11 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Commercial Terminal
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(12)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 12 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Headphone</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 12 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Headphone
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li
-                      onClick={() => handleCatClick(13)}
-                      className={`has-submenus-submenu ${
-                        activeIndexCat === 13 ? "active" : ""
-                      }`}
-                    >
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span>Smart Screen</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div
-                        className={`submenus-submenu py-16 ${
-                          activeIndexCat === 13 ? "open" : ""
-                        }`}
-                      >
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Smart Screen
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">Samsung</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Iphone</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Vivo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Oppo</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Itel</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Realme</Link>
+                            <Link to="/shop">MacBooks & Laptops</Link>
                           </li>
                         </ul>
                       </div>

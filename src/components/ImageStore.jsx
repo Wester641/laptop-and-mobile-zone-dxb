@@ -22,7 +22,7 @@ const ImageStore = () => {
               Great deals are already in-store!
             </h6>
             <Link
-              to="/shop"
+              to="/contact"
               className="btn btn-outline-white flex-align d-inline-flex rounded-pill gap-8 mt-28"
               tabIndex={0}
             >
