@@ -9674,3 +9674,6 @@ input:focus-visible {
 /* ========================= Banner Css Start ============================= */
 
 /* ========================= Banner Css End ============================= */
+.blur {
+  filter: blur(5px) !important;
+}

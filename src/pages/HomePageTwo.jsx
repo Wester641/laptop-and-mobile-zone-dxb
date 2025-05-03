@@ -50,19 +50,19 @@ const HomePageTwo = () => {
       <DealsOne />
 
       {/* TrendingOne */}
-      <TrendingOne />
+      {/* <TrendingOne /> */}
 
       {/* DiscountOne */}
-      <DiscountOne />
+      {/* <DiscountOne /> */}
 
       {/* FeaturedOne */}
       {/* <FeaturedOne /> */}
 
       {/* BigDealOne */}
-      <BigDealOne />
+      {/* <BigDealOne /> */}
 
       {/* TopSellingTwo */}
-      <TopSellingTwo />
+      {/* <TopSellingTwo /> */}
 
       {/* PopularProductsOne */}
       {/* <PopularProductsOne /> */}
@@ -71,13 +71,13 @@ const HomePageTwo = () => {
       {/* <TopVendorsTwo /> */}
 
       {/* DaySaleOne */}
-      <DaySaleOne />
+      {/* <DaySaleOne /> */}
 
       {/* RecentlyViewedOne */}
       {/* <RecentlyViewedOne /> */}
 
       {/* BrandTwo */}
-      <BrandTwo />
+      {/* <BrandTwo /> */}
 
       {/* ShippingTwo */}
       <ShippingTwo />
@@ -85,9 +85,9 @@ const HomePageTwo = () => {
       {/* NewsletterTwo */}
       <NewsletterTwo />
 
-      <UpdateFields />
+      {/* <UpdateFields /> */}
 
-      <GetFields />
+      {/* <GetFields /> */}
 
       {/* FooterTwo */}
       <FooterTwo />

@@ -2,7 +2,8 @@ import React, { memo, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { getCountdown } from "../helper/Countdown";
-import { dealLaptops } from "../data/otherLaptops";
+// import { dealLaptops } from "../data/otherLaptops";
+import { newMacbooks } from "../data/macbooks";
 
 const SampleNextArrow = memo(function SampleNextArrow(props) {
   const { className, onClick } = props;
@@ -136,7 +137,7 @@ const DealsOne = () => {
           </div>
           <div className="deals-week-slider arrow-style-two">
             <Slider {...settings}>
-              {dealLaptops?.map((laptop) => (
+              {newMacbooks?.map((laptop) => (
                 <div key={laptop.id}>
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
