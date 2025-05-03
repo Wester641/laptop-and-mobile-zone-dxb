@@ -125,42 +125,6 @@ const HeaderTwo = ({ category }) => {
                 <Link to="#" className="nav-menu__link">
                   Home
                 </Link>
-                <ul
-                  className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${
-                    activeIndex === 0 ? "open" : ""
-                  }`}
-                >
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Electronics Page
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Home Electronics
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Support
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li
                 onClick={() => handleMenuClick(1)}
@@ -171,32 +135,16 @@ const HeaderTwo = ({ category }) => {
                 <Link to="/shop" className="nav-menu__link">
                   Shop
                 </Link>
-                {/* <ul
-                  className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${
-                    activeIndex === 1 ? "open" : ""
-                  }`}
-                >
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/shop"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Shop
-                    </Link>
-                  </li>
-                  <li className="common-dropdown__item nav-submenu__item">
-                    <Link
-                      onClick={() => setActiveIndex(null)}
-                      to="/product-details"
-                      className="common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                    >
-                      {" "}
-                      Shop Details
-                    </Link>
-                  </li>
-                </ul> */}
+              </li>
+              <li
+                onClick={() => handleMenuClick(1)}
+                className={`on-hover-item nav-menu__item has-submenu ${
+                  activeIndex === 1 ? "d-block" : ""
+                }`}
+              >
+                <Link to="/shop" className="nav-menu__link">
+                  Shop
+                </Link>
               </li>
               <li
                 onClick={() => handleMenuClick(2)}
@@ -1301,7 +1249,7 @@ const HeaderTwo = ({ category }) => {
                     <i className="ph ph-caret-down" />
                   </span>
                 </button>
-                {/* <div className="responsive-dropdown on-hover-dropdown common-dropdown nav-submenu p-0 submenus-submenu-wrapper">
+                <div className="responsive-dropdown on-hover-dropdown common-dropdown nav-submenu p-0 submenus-submenu-wrapper">
                   <button
                     type="button"
                     className="close-responsive-dropdown rounded-circle text-xl position-absolute inset-inline-end-0 inset-block-start-0 mt-4 me-8 d-lg-none d-flex"
@@ -1320,24 +1268,18 @@ const HeaderTwo = ({ category }) => {
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
                         <span className="text-xl d-flex">
-                          <i className="ph ph-carrot" />
+                          <i className="ph ph-laptop" />
                         </span>
-                        <span>Vegetables &amp; Fruit</span>
+                        <span>Laptops</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
                       </Link>
                       <div className="submenus-submenu py-16">
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Vegetables &amp; Fruit
+                          Laptops
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop">iPhones & Apple Devices</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Samsung Smartphones</Link>
-                          </li>
                           <li>
                             <Link to="/shop">MacBooks & Laptops</Link>
                           </li>
@@ -1353,6 +1295,33 @@ const HeaderTwo = ({ category }) => {
                           <li>
                             <Link to="/shop">Accessories & Chargers</Link>
                           </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="has-submenus-submenu">
+                      <Link
+                        to="#"
+                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                      >
+                        <span className="text-xl d-flex">
+                          <i className="ph ph-devices" />
+                        </span>
+                        <span>Tablet PCs</span>
+                        <span className="icon text-md d-flex ms-auto">
+                          <i className="ph ph-caret-right" />
+                        </span>
+                      </Link>
+                      <div className="submenus-submenu py-16">
+                        <h6 className="text-lg px-16 submenus-submenu__title">
+                          Tablet PCs
+                        </h6>
+                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                          <li>
+                            <Link to="/shop">Tablets & iPads</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Accessories & Chargers</Link>
+                          </li>
                           <li>
                             <Link to="/shop">Smart Watches & Wearables</Link>
                           </li>
@@ -1362,44 +1331,17 @@ const HeaderTwo = ({ category }) => {
                           <li>
                             <Link to="/shop">Monitors & Keyboards</Link>
                           </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li className="has-submenus-submenu">
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
-                        </span>
-                        <span>Beverages</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div className="submenus-submenu py-16">
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Beverages
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop">Soda &amp; Cocktail Mix </Link>
+                            <Link to="/shop">iPhones & Apple Devices</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Sports &amp; Energy Drinks</Link>
+                            <Link to="/shop">Samsung Smartphones</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Non Alcoholic Drinks</Link>
+                            <Link to="/shop">MacBooks & Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Packaged Water </Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Spring Water</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Flavoured Water </Link>
+                            <Link to="/shop">HP & Dell Laptops</Link>
                           </li>
                         </ul>
                       </div>
@@ -1410,29 +1352,41 @@ const HeaderTwo = ({ category }) => {
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
                         <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
+                          <i className="ph ph-apple-logo" />
                         </span>
-                        <span>Meats &amp; Seafood</span>
+                        <span>Apple Products</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
                       </Link>
                       <div className="submenus-submenu py-16">
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Meats &amp; Seafood
+                          Apple Products
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop"> Fresh Meat </Link>
+                            <Link to="/shop">iPhone</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Frozen Meat</Link>
+                            <Link to="/shop">Macbook</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Marinated Meat</Link>
+                            <Link to="/shop">iMac</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Fresh &amp; Frozen Meat</Link>
+                            <Link to="/shop">Mac Mini</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">iPad</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Airpods</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Airpods Pro</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Apple Watch</Link>
                           </li>
                         </ul>
                       </div>
@@ -1443,35 +1397,38 @@ const HeaderTwo = ({ category }) => {
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
                         <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
+                          <i className="ph ph-google-logo" />
                         </span>
-                        <span>Breakfast &amp; Dairy</span>
+                        <span>Google Pixels</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
                       </Link>
                       <div className="submenus-submenu py-16">
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Breakfast &amp; Dairy
+                          Google Pixels
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop"> Oats &amp; Porridge</Link>
+                            <Link to="/shop">Google Pixels 1</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Kids Cereal</Link>
+                            <Link to="/shop">Google Pixels 2</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Muesli</Link>
+                            <Link to="/shop">Google Pixels 3</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Flakes</Link>
+                            <Link to="/shop">Google Pixels 4</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Granola &amp; Cereal Bars</Link>
+                            <Link to="/shop">Google Pixels 5</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Instant Noodles</Link>
+                            <Link to="/shop">Google Pixels 6</Link>
+                          </li>
+                          <li>
+                            <Link to="/shop">Google Pixels 7</Link>
                           </li>
                         </ul>
                       </div>
@@ -1482,171 +1439,50 @@ const HeaderTwo = ({ category }) => {
                         className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                       >
                         <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
+                          <i className="ph ph-device-mobile" />
                         </span>
-                        <span>Frozen Foods</span>
+                        <span>Used Devices</span>
                         <span className="icon text-md d-flex ms-auto">
                           <i className="ph ph-caret-right" />
                         </span>
                       </Link>
                       <div className="submenus-submenu py-16">
                         <h6 className="text-lg px-16 submenus-submenu__title">
-                          Frozen Foods
+                          Used Devices
                         </h6>
                         <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                           <li>
-                            <Link to="/shop"> Instant Noodles </Link>
+                            <Link to="/shop">HP & Dell Laptops</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Hakka Noodles</Link>
+                            <Link to="/shop">Nothing Phones</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Cup Noodles</Link>
+                            <Link to="/shop">iPhones & Apple Devices</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Vermicelli</Link>
+                            <Link to="/shop">Samsung Smartphones</Link>
                           </li>
                           <li>
-                            <Link to="/shop"> Instant Pasta</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li className="has-submenus-submenu">
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
-                        </span>
-                        <span>Biscuits &amp; Snacks</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div className="submenus-submenu py-16">
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Biscuits &amp; Snacks
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop"> Salted Biscuits </Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Marie, Health, Digestive</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">
-                              {" "}
-                              Cream Biscuits &amp; Wafers{" "}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Glucose &amp; Milk biscuits</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Cookies</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li className="has-submenus-submenu">
-                      <Link
-                        to="#"
-                        className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                      >
-                        <span className="text-xl d-flex">
-                          <i className="ph ph-brandy" />
-                        </span>
-                        <span>Grocery &amp; Staples</span>
-                        <span className="icon text-md d-flex ms-auto">
-                          <i className="ph ph-caret-right" />
-                        </span>
-                      </Link>
-                      <div className="submenus-submenu py-16">
-                        <h6 className="text-lg px-16 submenus-submenu__title">
-                          Grocery &amp; Staples
-                        </h6>
-                        <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                          <li>
-                            <Link to="/shop"> Lemon, Ginger &amp; Garlic </Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Indian &amp; Exotic Herbs</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Orangic Vegetables</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop">Orangic Fruits </Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Orangic Dry Fruits</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Orangic Dals &amp; pulses</Link>
-                          </li>
-                          <li>
-                            <Link to="/shop"> Orangic Millet &amp; Flours</Link>
+                            <Link to="/shop">MacBooks & Laptops</Link>
                           </li>
                         </ul>
                       </div>
                     </li>
                   </ul>
-                </div> */}
+                </div>
               </div>
               {/* Category Dropdown End  */}
               {/* Menu Start  */}
               <div className="header-menu d-lg-block d-none">
                 {/* Nav Menu Start */}
                 <ul className="nav-menu flex-align ">
-                  <li className="on-hover-item nav-menu__item has-submenu">
-                    <Link to="#" className="nav-menu__link">
+                  <li className="on-hover-item nav-menu__item">
+                    <Link to="/" className="nav-menu__link">
                       Home
                     </Link>
-                    <ul className="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          {" "}
-                          Electronics Page
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          {" "}
-                          Home Electronics
-                        </NavLink>
-                      </li>
-                      <li className="common-dropdown__item nav-submenu__item">
-                        <NavLink
-                          to="/"
-                          className={(navData) =>
-                            navData.isActive
-                              ? "common-dropdown__link nav-submenu__link hover-bg-neutral-100 activePage"
-                              : "common-dropdown__link nav-submenu__link hover-bg-neutral-100"
-                          }
-                        >
-                          {" "}
-                          Support
-                        </NavLink>
-                      </li>
-                    </ul>
                   </li>
+
                   <li className="nav-menu__item">
                     <NavLink
                       to="/shop"

@@ -9,7 +9,6 @@ import ColorInit from "../helper/ColorInit";
 import ScrollToTop from "react-scroll-to-top";
 
 const ShopPage = () => {
-
   return (
     <>
       {/* ColorInit */}
@@ -35,8 +34,6 @@ const ShopPage = () => {
 
       {/* FooterTwo */}
       <FooterTwo />
-
-
     </>
   );
 };

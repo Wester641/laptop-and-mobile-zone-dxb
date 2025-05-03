@@ -96,7 +96,7 @@ const DealsOne = () => {
               </div>
             </div>
           </div>
-          {/* <div className="deal-week-box rounded-16 overflow-hidden flex-between position-relative z-1 mb-24">
+          <div className="deal-week-box rounded-16 overflow-hidden flex-between position-relative z-1 mb-24">
             <img
               src="assets/images/bg/week-deal-bg.png"
               alt=""
@@ -133,7 +133,7 @@ const DealsOne = () => {
                 <img src="assets/images/thumbs/week-deal-img2.png" alt="" />
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="deals-week-slider arrow-style-two">
             <Slider {...settings}>
               {newMacbooks?.map((laptop) => (

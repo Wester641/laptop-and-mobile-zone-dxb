@@ -35,33 +35,33 @@ const BannerTwo = () => {
                     to="#"
                     className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                   >
-                    <span>Cell Phone</span>
+                    <span>Computer Notebooks</span>
                     <span className="icon text-md d-flex ms-auto">
                       <i className="ph ph-caret-right" />
                     </span>
                   </Link>
                   <div className="submenus-submenu py-16">
                     <h6 className="text-lg px-16 submenus-submenu__title">
-                      Cell Phone
+                      Computer Notebooks
                     </h6>
                     <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
                       <li>
                         <Link to="/shop">Samsung</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Iphone</Link>
+                        <Link to="/shop">DELL</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Vivo</Link>
+                        <Link to="/shop">Asus</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
+                        <Link to="/shop">Microsoft</Link>
                       </li>
                     </ul>
                   </div>
@@ -71,33 +71,33 @@ const BannerTwo = () => {
                     to="#"
                     className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                   >
-                    <span>Wear</span>
+                    <span>Tablet PCs</span>
                     <span className="icon text-md d-flex ms-auto">
                       <i className="ph ph-caret-right" />
                     </span>
                   </Link>
                   <div className="submenus-submenu py-16">
                     <h6 className="text-lg px-16 submenus-submenu__title">
-                      Wear
+                      Tablet PCs
                     </h6>
                     <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
                       <li>
                         <Link to="/shop">Samsung</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Iphone</Link>
+                        <Link to="/shop">DELL</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Vivo</Link>
+                        <Link to="/shop">Asus</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
+                        <Link to="/shop">Microsoft</Link>
                       </li>
                     </ul>
                   </div>
@@ -107,358 +107,33 @@ const BannerTwo = () => {
                     to="#"
                     className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                   >
-                    <span>Computer</span>
+                    <span>Smartphones</span>
                     <span className="icon text-md d-flex ms-auto">
                       <i className="ph ph-caret-right" />
                     </span>
                   </Link>
                   <div className="submenus-submenu py-16">
                     <h6 className="text-lg px-16 submenus-submenu__title">
-                      Computer
+                      Smartphones
                     </h6>
                     <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                       <li>
-                        <Link to="/shop">Samsung</Link>
+                        <Link to="/shop">Apple</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Iphone</Link>
+                        <Link to="/shop">Nothing Phone</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Vivo</Link>
+                        <Link to="/shop">Google Pixel</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Oppo</Link>
+                        <Link to="/shop">Huawei</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Itel</Link>
+                        <Link to="/shop">Samsung Z Fold 2</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Headphone</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Headphone
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Smart Screen</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Smart Screen
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Smart Home</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Smart Home
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Digital Accessories</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Digital Accessories
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span> Value Added Services</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      {" "}
-                      Value Added Services
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Car Products</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Car Products
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Ecological Products</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Ecological Products
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Flat</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Flat
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="has-submenus-submenu">
-                  <Link
-                    to="#"
-                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
-                  >
-                    <span>Commercial Terminal</span>
-                    <span className="icon text-md d-flex ms-auto">
-                      <i className="ph ph-caret-right" />
-                    </span>
-                  </Link>
-                  <div className="submenus-submenu py-16">
-                    <h6 className="text-lg px-16 submenus-submenu__title">
-                      Commercial Terminal
-                    </h6>
-                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                      <li>
-                        <Link to="/shop">Samsung</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Iphone</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Vivo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Oppo</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Itel</Link>
-                      </li>
-                      <li>
-                        <Link to="/shop">Realme</Link>
+                        <Link to="/shop">Samsung Galaxy S</Link>
                       </li>
                     </ul>
                   </div>
@@ -475,26 +150,26 @@ const BannerTwo = () => {
                   </Link>
                   <div className="submenus-submenu py-16">
                     <h6 className="text-lg px-16 submenus-submenu__title">
-                      Headphone
+                      Headphones
                     </h6>
                     <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                       <li>
-                        <Link to="/shop">Samsung</Link>
+                        <Link to="/shop">Marshall</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Iphone</Link>
+                        <Link to="/shop">Sony</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Vivo</Link>
+                        <Link to="/shop">Razer</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Oppo</Link>
+                        <Link to="/shop">AirPods</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Itel</Link>
+                        <Link to="/shop">Asus</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Realme</Link>
+                        <Link to="/shop">Apple AirPods Max</Link>
                       </li>
                     </ul>
                   </div>
@@ -504,33 +179,249 @@ const BannerTwo = () => {
                     to="#"
                     className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
                   >
-                    <span>Smart Screen</span>
+                    <span>Used Computers</span>
                     <span className="icon text-md d-flex ms-auto">
                       <i className="ph ph-caret-right" />
                     </span>
                   </Link>
                   <div className="submenus-submenu py-16">
                     <h6 className="text-lg px-16 submenus-submenu__title">
-                      Smart Screen
+                      Used Computers
                     </h6>
                     <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
                       <li>
                         <Link to="/shop">Samsung</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Iphone</Link>
+                        <Link to="/shop">DELL</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Vivo</Link>
+                        <Link to="/shop">Asus</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Oppo</Link>
+                        <Link to="/shop">Microsoft</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Used Smartphones</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Used Smartphones
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">Apple</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Itel</Link>
+                        <Link to="/shop">Nothing Phone</Link>
                       </li>
                       <li>
-                        <Link to="/shop">Realme</Link>
+                        <Link to="/shop">Google Pixel</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Huawei</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung Z Fold 2</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung Galaxy S</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Computer CPU</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Computer CPU
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">DELL</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Asus</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Microsoft</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Computer Memory</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Computer Memory
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">DELL</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Asus</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Microsoft</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Monitors</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Monitors
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">DELL</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Asus</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Microsoft</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Printers</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Printers
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">DELL</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Asus</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Microsoft</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="has-submenus-submenu">
+                  <Link
+                    to="#"
+                    className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+                  >
+                    <span>Accessories</span>
+                    <span className="icon text-md d-flex ms-auto">
+                      <i className="ph ph-caret-right" />
+                    </span>
+                  </Link>
+                  <div className="submenus-submenu py-16">
+                    <h6 className="text-lg px-16 submenus-submenu__title">
+                      Accessories
+                    </h6>
+                    <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
+                      <li>
+                        <Link to="/shop">HP</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Lenovo</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Samsung</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">DELL</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Asus</Link>
+                      </li>
+                      <li>
+                        <Link to="/shop">Microsoft</Link>
                       </li>
                     </ul>
                   </div>
@@ -549,10 +440,10 @@ const BannerTwo = () => {
                 <div className="banner-item-two">
                   <div className="banner-item-two__content">
                     <span className="text-white mb-8 h6">
-                      Starting at only $250
+                      Wholesale and retail.
                     </span>
                     <h2 className="banner-item-two__title bounce text-white">
-                      Get The Sound You Love For Less
+                      The best prices on electronics for everyone
                     </h2>
                     <Link
                       to="/shop"
@@ -576,10 +467,10 @@ const BannerTwo = () => {
                 <div className="banner-item-two">
                   <div className="banner-item-two__content">
                     <span className="text-white mb-8 h6">
-                      Starting at only $250
+                      Wholesale and retail.
                     </span>
                     <h2 className="banner-item-two__title bounce text-white">
-                      Get The Sound You Love For Less
+                      The best prices on electronics for everyone
                     </h2>
                     <Link
                       to="/shop"
