@@ -9677,3 +9677,58 @@ input:focus-visible {
 .blur {
   filter: blur(5px) !important;
 }
+
+.map-style {
+  display: flex;
+  justify-content: space-between;
+  max-height: 450px !important;
+  min-width: 450px !important;
+}
+.map-style p {
+  min-width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.day-sale {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.divider-lg {
+  margin: 80px 0;
+}
+.map-container {
+  display: flex;
+  gap: 15px;
+  align-items: start;
+}
+.map {
+  min-height: 500px !important;
+  border-radius: 15px;
+  border: 1px solid var(--gray-100) !important;
+}
+.container-map {
+  min-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .product-details__thumb-slider {
+    min-width: 100% !important;
+    height: 360px !important;
+  }
+  .map-container {
+    flex-direction: column;
+  }
+  .divider-lg {
+    margin: 30px 0;
+  }
+  .day-sale {
+    width: 100% !important;
+    box-sizing: content-box;
+  }
+  .day-sale-box__content {
+    padding: 15px !important;
+  }
+}

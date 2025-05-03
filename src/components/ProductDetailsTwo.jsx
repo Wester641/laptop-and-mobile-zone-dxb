@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { getCountdown } from "../helper/Countdown";
 import { settingsThumbs } from "../helper/Setting";
 import Map from "./Map";
+import ImageStore from "./ImageStore";
 
 const ProductDetailsTwo = ({ laptop }) => {
-  const [timeLeft, setTimeLeft] = useState(getCountdown());
   const [mainImage, setMainImage] = useState("");
   const [quantity, setQuantity] = useState(1);
   const [totalPrice, setTotalPrice] = useState();
@@ -358,8 +357,12 @@ const ProductDetailsTwo = ({ laptop }) => {
               </div>
             </div>
           </div>
+          <div className="divider-lg"></div>
         </div>
-        <Map />
+        <div className="map-container">
+          <Map />
+          <ImageStore />
+        </div>
       </div>
     </section>
   );
