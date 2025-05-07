@@ -24,6 +24,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 import UpdateFields from "../components/firebase/UpdateFields";
 import GetFields from "../components/firebase/GetFields";
+import HeaderOne from "../components/HeaderOne";
 
 const HomePageTwo = () => {
   return (
@@ -38,7 +39,9 @@ const HomePageTwo = () => {
       <Preloader />
 
       {/* HeaderTwo */}
-      <HeaderTwo category={false} />
+      {/* <HeaderTwo category={false} /> */}
+
+      <HeaderOne />
 
       {/* BannerTwo */}
       <BannerTwo />

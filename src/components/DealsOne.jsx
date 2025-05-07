@@ -46,7 +46,7 @@ const DealsOne = () => {
     arrows: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
@@ -82,7 +82,7 @@ const DealsOne = () => {
   return (
     <section className="deals-weeek pt-80">
       <div className="container container-lg">
-        <div className="border border-gray-100 p-24 rounded-16">
+        <div className="border border-gray-100 p-24 rounded-16 maxWidth">
           <div className="section-heading mb-24">
             <div className="flex-between flex-wrap gap-8">
               <h5 className="mb-0">Apple products</h5>

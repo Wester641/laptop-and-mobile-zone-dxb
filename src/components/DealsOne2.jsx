@@ -69,7 +69,7 @@ const DealsOne2 = () => {
     arrows: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
