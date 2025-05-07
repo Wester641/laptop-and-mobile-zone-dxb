@@ -12,6 +12,7 @@ import BottomFooter from "../components/BottomFooter";
 import ScrollToTop from "react-scroll-to-top";
 import { useParams } from "react-router-dom";
 import { newMacbooks } from "../data/macbooks";
+import HeaderOne from "../components/HeaderOne";
 
 const ProductDetailsPageTwo = () => {
   const { id } = useParams();
@@ -33,7 +34,8 @@ const ProductDetailsPageTwo = () => {
       <Preloader />
 
       {/* HeaderTwo */}
-      <HeaderTwo category={true} />
+      {/* <HeaderTwo category={true} /> */}
+      <HeaderOne />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Product Details"} />
